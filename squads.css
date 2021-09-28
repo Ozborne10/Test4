@@ -1,0 +1,26 @@
+.Open{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.Modal-Mask{
+  background-color: rgba(0,0,0,0.5);
+  width:100vw;
+  height:100vh;
+  position: fixed;
+  top: 0;
+  left:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  display:none;
+}
+
+.Modal-Content{
+  width:500px;
+  height:250px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
